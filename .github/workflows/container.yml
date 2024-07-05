@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths:
-      - 'packages/container/**'
+      - "packages/container/**"
 
-default:
+defaults:
   run:
     working-directory: packages/container
 
