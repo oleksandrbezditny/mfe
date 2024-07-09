@@ -10,6 +10,9 @@ const prodConfig = {
         filename: '[name].[contenthash].js',
         publicPath: '/marketing/latest/'
     },
+    optimization: {
+        splitChunks: false,
+    },
     plugins: [
         new ModuleFederationPlugin({
             name: 'container',
